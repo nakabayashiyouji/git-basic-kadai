@@ -1,0 +1,14 @@
+PS C:\Users\HP\Desktop\任意\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/HP/Desktop/任意/git_challenge/.git/
+PS C:\Users\HP\Desktop\任意\git_challenge> git add hello_world.txt
+PS C:\Users\HP\Desktop\任意\git_challenge> git commit -m "hello,world!を追加"     
+[main 6341fa4] hello,world!を追加
+ 1 file changed, 1 insertion(+)
+PS C:\Users\HP\Desktop\任意\git_challenge> git add hello_world.txt
+PS C:\Users\HP\Desktop\任意\git_challenge> git commit -m "こんにちは、世界!を追加"
+[main ef6f6e2] こんにちは、世界!を追加
+ 1 file changed, 1 insertion(+), 2 deletions(-)                                                                                  
+PS C:\Users\HP\Desktop\任意\git_challenge> git log --oneline
+ef6f6e2 (HEAD -> main) こんにちは、世界!を追加
+6341fa4 hello,world!を追加
+PS C:\Users\HP\Desktop\任意\git_challenge> 
