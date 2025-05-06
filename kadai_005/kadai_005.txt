@@ -1,0 +1,27 @@
+PS C:\Users\HP\Desktop\任意\git_challenge> git add [C:\Users\HP\Desktop\任意\git_challenge\hello_world.txt]
+fatal: pathspec '[C:\Users\HP\Desktop\任意\git_challenge\hello_world.txt]' did not match any files
+PS C:\Users\HP\Desktop\任意\git_challenge> git add .
+PS C:\Users\HP\Desktop\任意\git_challenge> git commit -m "1"                     
+[main (root-commit) bd01252] 1
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\HP\Desktop\任意\git_challenge> git commit -m "2"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\HP\Desktop\任意\git_challenge> git commit -m "2"
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\HP\Desktop\任意\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\HP\Desktop\任意\git_challenge> git diff [C:\Users\HP\Desktop\任意\git_challenge\hello_world.txt]
+PS C:\Users\HP\Desktop\任意\git_challenge> git diff --staged
+PS C:\Users\HP\Desktop\任意\git_challenge> git log
+commit bd01252751052e021919ac888e3563a7cfc73d85 (HEAD -> main)
+Author: nakabayashiyouji <y09077175175@gmail.com>
+Date:   Wed May 7 05:32:47 2025 +0900
+
+    1
+PS C:\Users\HP\Desktop\任意\git_challenge> git log --oneline
+bd01252 (HEAD -> main) 1
+PS C:\Users\HP\Desktop\任意\git_challenge> 
