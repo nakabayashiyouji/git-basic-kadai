@@ -1,0 +1,39 @@
+PS C:\Users\HP\Desktop\任意\git_challenge> git add .
+PS C:\Users\HP\Desktop\任意\git_challenge> git commit -m "1"                     
+[main 324b1dd] 1
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\HP\Desktop\任意\git_challenge> git add .
+PS C:\Users\HP\Desktop\任意\git_challenge> git commit -m "2"
+[main 6a9617f] 2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\HP\Desktop\任意\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\HP\Desktop\任意\git_challenge> git diff --staged
+PS C:\Users\HP\Desktop\任意\git_challenge> git log
+commit 6a9617f9f8fe20b8dd3aa522e36bde2f9d0b5f95 (HEAD -> main)
+Author: nakabayashiyouji <y09077175175@gmail.com>
+Date:   Wed May 7 06:04:24 2025 +0900
+
+    2
+
+commit 324b1dda64e1bd5222d4c9c343c138e82b28bc19
+Author: nakabayashiyouji <y09077175175@gmail.com>
+Date:   Wed May 7 06:03:30 2025 +0900
+
+    1
+
+commit 93125f6a34fda6c010544dfeb9239bae60a85be5
+Author: nakabayashiyouji <y09077175175@gmail.com>
+Date:   Wed May 7 06:00:46 2025 +0900
+
+    2
+
+commit b5b0508cf6a5739fd9142be607632aa6419e7a50
+Author: nakabayashiyouji <y09077175175@gmail.com>
+Date:   Wed May 7 05:59:48 2025 +0900
+
+    1
+
+commit bd01252751052e021919ac888e3563a7cfc73d85
+:
