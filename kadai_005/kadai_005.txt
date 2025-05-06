@@ -1,0 +1,28 @@
+PS C:\Users\HP\git_challenge> mkdir git_challenge
+PS C:\Users\HP\git_challenge> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\HP\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/05/07      7:54                git_challenge
+
+
+PS C:\Users\HP\git_challenge> cd git_challenge
+PS C:\Users\HP\git_challenge\git_challenge> git init
+Initialized empty Git repository in C:/Users/HP/git_challenge/git_challenge/.git/
+PS C:\Users\HP\git_challenge\git_challenge> git add hello,world.txt
+PS C:\Users\HP\git_challenge\git_challenge> git commit -m "Hello,world!を追加"            
+[main (root-commit) a53e25f] Hello,world!を追加
+ 1 file changed, 0 insertions(+),
+ create mode 100644 hello,world.txt
+PS C:\Users\HP\git_challenge\git_challenge> git add hello,world.txt
+PS C:\Users\HP\git_challenge\git_challenge> git commit -m "こんにちは、世界!を追加"
+[main 0dd8434] こんにちは、世界!を追加
+ 1 file changed, 1 insertion(+)
+PS C:\Users\HP\git_challenge\git_challenge> git log --oneline
+0dd8434 (HEAD -> main) こんにちは、世界!を追加
+a53e25f Hello,world!を追加
+PS C:\Users\HP\git_challenge\git_challenge> 
